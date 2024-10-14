@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
     file = fopen("chadlia.txt", "a");
     fprintf(file, "NRA : %d\t", NRA);
     fprintf(file, "NCA : %d\t", NCA);
-    fprintf(file, "NCA : %d\n", NCB);
+    fprintf(file, "NCB : %d\n", NCB);
     fprintf(file, "size A:  %ld o\n", sizeMA);
     fprintf(file, "size B:  %ld o\n", sizeMB);
     fprintf(file, "size C:  %ld o\n", sizeMC);

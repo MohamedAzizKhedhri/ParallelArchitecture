@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
     fprintf(file, "Cash Friendly Time: %3.8f s\n", cashFriendlyTime);
     fprintf(file, "Speedup: %3.8f s\n", speedUp);
     fprintf(file, "\n\t-----------------------------------------------------\n\n");
-
+    fclose(file);
 
     printf("Done.\n");
     return 0;
